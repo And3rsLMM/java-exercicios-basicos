@@ -1,5 +1,5 @@
-# Java Básico
-Este repositório foi criado com o objetivo de conter todas as resoluções dos desafios Básicos da [Formação Java Developer](https://web.dio.me/track/formacao-java-developer) da plataforma de ensino [DIO](www.dio.me).
+# Java BÃ¡sico
+Este repositÃ³rio foi criado com o objetivo de conter todas as resoluÃ§Ãµes dos Desafios de Projeto BÃ¡sicos da [FormaÃ§Ã£o Java Developer](https://web.dio.me/track/formacao-java-developer) da plataforma de ensino [DIO](www.dio.me).
 
 ##### Autor e repositorio original dos desafios
 - Instrutor [Gleyson Sampaio](https://github.com/glysns)
@@ -7,13 +7,13 @@ Este repositório foi criado com o objetivo de conter todas as resoluções dos des
 
 ## Desafios Propostos
 
-### Simulando uma Conta Bancaria através do Terminal/Console
-Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o seguinte cenário.
+### Simulando uma Conta Bancaria atravÃ©s do Terminal/Console
+Vamos exercitar todo o conteÃºdo apresentado no mÃ³dulo de Sintaxe codificando o seguinte cenÃ¡rio.
 
-1. Crie o projeto `ContaBanco` que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
-2. Dentro do projeto, crie a classe `ContaTerminal.java` para realizar toda a codificação do nosso programa.
+1. Crie o projeto `ContaBanco` que receberÃ¡ dados via terminal contendo as caracterÃ­sticas de conta em banco conforme atributos abaixo:
+2. Dentro do projeto, crie a classe `ContaTerminal.java` para realizar toda a codificaÃ§Ã£o do nosso programa.
 
-###### Revise sobre regras de declaração de variáveis
+###### Revise sobre regras de declaraÃ§Ã£o de variÃ¡veis
 
 | Atributo  | Tipo     | Exemplo   
 | --------- | ---------| ------- 
@@ -24,48 +24,48 @@ Vamos exercitar todo o conteúdo apresentado no módulo de Sintaxe codificando o s
 
 
 ###### Revise sobre terminal, main args e a classe Scanner
-2. Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
+2. Permita que os dados sejam inseridos via terminal sendo que o usuÃ¡rio receberÃ¡ a mensagem de qual informaÃ§Ã£o serÃ¡ solicitada, exemplo:
 
-* Programa: "Por favor, digite o número da Agência !"
-* Usuário: 1021 *(depois ENTER para o próximo campo)* 
+* Programa: "Por favor, digite o nÃºmero da AgÃªncia !"
+* UsuÃ¡rio: 1021 *(depois ENTER para o prÃ³ximo campo)* 
 
-###### Revise sobre concatenação e classe String com método concat
+###### Revise sobre concatenaÃ§Ã£o e classe String com mÃ©todo concat
 
-3. Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
+3. Depois de todas as informaÃ§Ãµes terem sido inseridas, o sistema deverÃ¡ exibir a seguinte mensagem:
 
-*"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".*
+*"OlÃ¡ [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agÃªncia Ã© [Agencia], conta [Numero] e seu saldo [Saldo] jÃ¡ estÃ¡ disponÃ­vel para saque".*
 
-Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
+Os campos em [ ] devem ser alterados pelas informaÃ§Ãµes que forem inseridas pelos usuÃ¡rios.
 
 ### Controle de Fluxo
-Vamos exercitar todo o conteúdo apresentado no módulo de Controle de Fluxo codificando o seguinte cenário.
+Vamos exercitar todo o conteÃºdo apresentado no mÃ³dulo de Controle de Fluxo codificando o seguinte cenÃ¡rio.
 
-O sistema deverá receber dois parâmetros via terminal que representarão dois números inteiros, com estes dois números você deverá obter a quantidade de interações (for) e realizar a impressão no console (System.out.print) dos números incrementados, exemplo:
+O sistema deverÃ¡ receber dois parÃ¢metros via terminal que representarÃ£o dois nÃºmeros inteiros, com estes dois nÃºmeros vocÃª deverÃ¡ obter a quantidade de interaÃ§Ãµes (for) e realizar a impressÃ£o no console (System.out.print) dos nÃºmeros incrementados, exemplo:
 
-* Se você passar os números 12 e 30, logo teremos uma interação (for) com 18 ocorrências para imprimir os números, exemplo: `"Imprimindo o número 1"`, `"Imprimindo o número 2"` e assim por diante.
-* Se o primeiro parâmetro for MAIOR que o segundo parâmetro, você deverá lançar a exceção customizada chamada de `ParametrosInvalidosException` com a segunda mensagem: "O segundo parâmetro deve ser maior que o primeiro"   
+* Se vocÃª passar os nÃºmeros 12 e 30, logo teremos uma interaÃ§Ã£o (for) com 18 ocorrÃªncias para imprimir os nÃºmeros, exemplo: `"Imprimindo o nÃºmero 1"`, `"Imprimindo o nÃºmero 2"` e assim por diante.
+* Se o primeiro parÃ¢metro for MAIOR que o segundo parÃ¢metro, vocÃª deverÃ¡ lanÃ§ar a exceÃ§Ã£o customizada chamada de `ParametrosInvalidosException` com a segunda mensagem: "O segundo parÃ¢metro deve ser maior que o primeiro"   
 
 
 1. Crie o projeto `DesafioControleFluxo`
-2. Dentro do projeto, crie a classe `Contador.java` para realizar toda a codificação do nosso programa.
-3. Dentro do projeto, crie a classe `ParametrosInvalidosException` que representará a exceção de negócio no sistema. 
+2. Dentro do projeto, crie a classe `Contador.java` para realizar toda a codificaÃ§Ã£o do nosso programa.
+3. Dentro do projeto, crie a classe `ParametrosInvalidosException` que representarÃ¡ a exceÃ§Ã£o de negÃ³cio no sistema. 
 
 ### Abstraindo um Iphone usando POO
-Modelagem e diagramação da representação em UML e Código no que se refere ao componente iPhone.
+Modelagem e diagramaÃ§Ã£o da representaÃ§Ã£o em UML e CÃ³digo no que se refere ao componente iPhone.
 
-Com base no vídeo de lançamento do iPhone conforme link abaixo, elabore em uma ferramenta de UML de sua preferência a diagramação das classes e interfaces com a proposta de representar os papéis do iPhone de: Reprodutor Musicial,  Aparelho Telefônico e Navegador na Internet. Em seguida crie as classes e interfaces no formato de arquivos .java
+Com base no vÃ­deo de lanÃ§amento do iPhone conforme link abaixo, elabore em uma ferramenta de UML de sua preferÃªncia a diagramaÃ§Ã£o das classes e interfaces com a proposta de representar os papÃ©is do iPhone de: Reprodutor Musicial,  Aparelho TelefÃ´nico e Navegador na Internet. Em seguida crie as classes e interfaces no formato de arquivos .java
 
-[Lançamento iPhone 2007](https://www.youtube.com/watch?v=9ou608QQRq8)
+[LanÃ§amento iPhone 2007](https://www.youtube.com/watch?v=9ou608QQRq8)
 
-- Minutos relevantes do 00:15 até 00:55
+- Minutos relevantes do 00:15 atÃ© 00:55
 
 ###### Comportamentos esperados:
 * Repodutor Musicial: tocar, pausar, selecionarMusica
-* Aparelho Telefônico: ligar, atender, iniciarCorrerioVoz
+* Aparelho TelefÃ´nico: ligar, atender, iniciarCorrerioVoz
 * Navegador na Internet: exibirPagina, adicionarNovaAba, atualizarPagina
 
 ## Como usar os codigo?
 
-* Faça o clone deste repositório
-* cada arquivo resolução pode ser encontrado em sua respectiva pasta dentro da pasta Desafios
+* FaÃ§a o clone deste repositÃ³rio
+* cada arquivo resoluÃ§Ã£o pode ser encontrado em sua respectiva pasta dentro da pasta Desafios
 * Rode os arquivos .java contendo a classe Main
